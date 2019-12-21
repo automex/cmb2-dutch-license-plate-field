@@ -2,8 +2,8 @@
 Adds a Dutch License Plate Field to CMB2.
 ```php
 $kenteken = new_cmb2_box( array(
-    'id'            => 'kenteken',
-    'title'         => __('Kenteken', 'theme'),
+    'id'    => 'kenteken',
+    'title' => __('Kenteken', 'theme'),
 ));
 
 $kentekenplaat = $kenteken->add_field(array(
