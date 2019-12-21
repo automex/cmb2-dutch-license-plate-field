@@ -12,3 +12,5 @@ $kentekenplaat = $kenteken->add_field(array(
     'type' => '',
 ));
 ```
+# License
+The code and the documentation are released under the [MIT License](LICENSE).
