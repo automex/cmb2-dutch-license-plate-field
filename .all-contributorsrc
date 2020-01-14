@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "pgroot91",
+      "name": "Patrick Groot",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6934501?v=4",
+      "profile": "https://www.patrickgroot.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "cmb2-dutch-license-plate-field",
+  "projectOwner": "automex",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
