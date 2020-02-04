@@ -22,8 +22,10 @@ class AMEX_Dutch_License_Plate {
 	public function __construct() {
 		/* CMB2 Dutch License Plate Field Small */
 		add_filter( 'cmb2_render_dutch_license_plate_small', array( $this, 'render_callback_for_dutch_license_plate_small' ), 10, 5 );
+		add_filter( 'cmb2_sanitize_dutch_license_plate_small', array( $this, 'sanitize_dutch_license_plate_small'), 10, 2 );
 		/* CMB2 Dutch License Plate Field Large */
 		add_filter( 'cmb2_render_dutch_license_plate_large', array( $this, 'render_callback_for_dutch_license_plate_large' ), 10, 5 );
+		add_filter( 'cmb2_sanitize_dutch_license_plate_large', array( $this, 'sanitize_dutch_license_plate_large'), 10, 2 );
 	}
 	
 	/* CMB2 Dutch License Plate Field Small */
@@ -48,6 +50,10 @@ class AMEX_Dutch_License_Plate {
 		</span>
 		<?php echo $field_type_object->_desc( true );
 	} 
+	public function sanitize_dutch_license_plate_small( $null, $new ) {
+		$new = preg_replace('/[^a-zA-Z0-9]/', '', $new);
+		return $new;
+	}
 
 	/* CMB2 Dutch License Plate Field Large */
 	public function render_callback_for_dutch_license_plate_large( $field, $escaped_value, $object_id, $object_type, $field_type_object ) {
@@ -70,6 +76,10 @@ class AMEX_Dutch_License_Plate {
 			) ); ?>
 		</span>
 		<?php echo $field_type_object->_desc( true );
+	}
+	public function sanitize_dutch_license_plate_large( $null, $new ) {
+		$new = preg_replace('/[^a-zA-Z0-9]/', '', $new);
+		return $new;
 	}
 
 	public function amex_css_js( $field ) {	
