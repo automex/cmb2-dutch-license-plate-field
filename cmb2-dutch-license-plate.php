@@ -8,7 +8,7 @@
  * Version: 1.0.0
  * Author: Automex.website
  * Author URI: http://automex.website
- * License: GPLv3
+ * License: MIT
  * Text Domain: amex-cmb2-dutch-license-plate
  * Domain Path: /languages
  */
@@ -21,9 +21,9 @@ class AMEX_Dutch_License_Plate {
 
 	public function __construct() {
 		/* CMB2 Dutch License Plate Field Small */
-		add_action( 'cmb2_render_dutch_license_plate_small', array( $this, 'render_callback_for_dutch_license_plate_small' ), 10, 5 );
+		add_filter( 'cmb2_render_dutch_license_plate_small', array( $this, 'render_callback_for_dutch_license_plate_small' ), 10, 5 );
 		/* CMB2 Dutch License Plate Field Large */
-		add_action( 'cmb2_render_dutch_license_plate_large', array( $this, 'render_callback_for_dutch_license_plate_large' ), 10, 5 );
+		add_filter( 'cmb2_render_dutch_license_plate_large', array( $this, 'render_callback_for_dutch_license_plate_large' ), 10, 5 );
 	}
 	
 	/* CMB2 Dutch License Plate Field Small */
