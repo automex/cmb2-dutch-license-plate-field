@@ -1,15 +1,15 @@
 <?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 /**
- * Plugin Name: CMB2 Dutch License Plate Field
+ * Plugin Name: Dutch License Plate Field for CMB2
  * Plugin URI: https://github.com/automex/cmb2-dutch-license-plate-field
  * GitHub Plugin URI: https://github.com/automex/cmb2-dutch-license-plate-field
- * Description: CMB2 Dutch License Plate field 
+ * Description: Dutch License Plate Field for CMB2
  * Version: 1.0.0
  * Author: Automex.website
  * Author URI: http://automex.website
  * License: MIT
- * Text Domain: amex-cmb2-dutch-license-plate
+ * Text Domain: amex-dutch-license-plate
  * Domain Path: /languages
  */
 
