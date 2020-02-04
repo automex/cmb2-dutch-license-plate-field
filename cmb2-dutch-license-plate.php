@@ -37,8 +37,7 @@ class AMEX_Dutch_License_Plate {
 			<?php echo $field_type_object->input( array( 
 				'type' => 'text', 
 				'name' => 'dutch_license_plate_small',
-				'id' => 'dutch_license_plate_small',
-				'value' => '',
+				'id' => 'dutch_license_plate_small',s
 				'class' => 'nl',
 				'placeholder' => 'XP-004-T',
 				'spellcheck' => 'false',
@@ -62,7 +61,6 @@ class AMEX_Dutch_License_Plate {
 				'type' => 'text', 
 				'name' => 'dutch_license_plate_large',
 				'id' => 'dutch_license_plate_large',
-				'value' => '',
 				'class' => 'nl',
 				'placeholder' => 'XP-004-T',
 				'spellcheck' => 'false',
