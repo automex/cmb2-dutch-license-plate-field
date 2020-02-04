@@ -4,7 +4,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Adds a Dutch License Plate Field to CMB2.
 ## Usage
-Use `dutch_license_plate_small` or `dutch_license_plate_large` for usign small or either large license plate field.
+Use `dutch_license_plate_small` for the small license plate field or `dutch_license_plate_large` for the large license plate field.
 ```php
 $license_plate = new_cmb2_box( array(
     'title' => __('License Plate', 'amex-dutch-license-plate'),
