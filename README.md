@@ -45,4 +45,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## Credits
 
-This plugin makes use of a licenseplate formatter created by @koenoe https://github.com/koenoe/kentekenplaat
+This plugin makes use of a license plate formatter created by @koenoe https://github.com/koenoe/kentekenplaat
