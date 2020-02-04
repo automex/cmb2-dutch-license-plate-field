@@ -16,6 +16,10 @@ $kentekenplaat = $kenteken->add_field(array(
     'type' => '',
 ));
 ```
+
+## Screenshot
+<img src="screenshot.PNG" alt="screenshot" width="70%" />
+
 # License
 The code and the documentation are released under the [MIT License](LICENSE).
 
