@@ -76,8 +76,9 @@ class AMEX_Dutch_License_Plate {
 
 	public function amex_css_js( $field ) {	
 		$asset_path = apply_filters( 'sa_cmb2_field_faiconselect_asset_path', plugins_url( '', __FILE__ ) );
-		
-		wp_enqueue_style('amex_core_stylesheet', $asset_path . '/assets/css/style.min.css', array(), self::VERSION );	
+		wp_enqueue_style('amex_core_stylesheet', $asset_path . '/assets/css/style.min.css', array(), self::VERSION );
+		wp_enqueue_script('kentekenplaat_js', $asset_path . '/assets/js/kentekenplaat.min.js', array( 'jquery' ), self::VERSION, true );
+		wp_enqueue_script('main_js', $asset_path . '/assets/js/main.js', array( 'jquery' ), self::VERSION, true );
 	} 
 
 }
