@@ -73,20 +73,21 @@
 	margin: 0;
 }
 .kenteken.small > input[type="text"] {
-  width: calc(85% - 1px);
-  height: 46px;
-  border: 1px solid #333;
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 2px;
-  font-size: 28px;
+	width: calc(85% - 1px);
+	height: 46px;
+	border: 1px solid #333;
+	letter-spacing: 2px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	font-size: 28px;
 }
 .kenteken > input[type=text]::placeholder { 
 	color: rgba(0,0,0,0.1);
 }
 .kenteken span.blue img { 
-  width: 36px; 
-  height: 36px;
-  margin: 12px auto 6px auto;
+	width: 36px; 
+	height: 36px;
+	margin: 12px auto 6px auto;
 }
 .kenteken.small span.blue img {
 	width: 18px; 
