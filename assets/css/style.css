@@ -61,7 +61,7 @@
 	border: 2px solid #333;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
-	font-size: 56px;
+	font-size: /*56*/48px;
 	border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
 	background: #f3bd00;
@@ -83,7 +83,7 @@
 	letter-spacing: 2px;
 	border-top-right-radius: 2px;
 	border-bottom-right-radius: 2px;
-	font-size: 28px;
+	font-size: /*28*/24px;
 }
 .kenteken > input[type=text]::placeholder { 
 	color: rgba(0,0,0,0.1);
