@@ -65,6 +65,7 @@
 	border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
 	background: #f3bd00;
+	text-shadow: -2px 0px yellow;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-weight: bold;
@@ -84,6 +85,7 @@
 	border-top-right-radius: 2px;
 	border-bottom-right-radius: 2px;
 	font-size: /*28*/24px;
+	text-shadow: -1px 0px yellow;
 }
 .kenteken > input[type=text]::placeholder { 
 	color: rgba(0,0,0,0.1);
