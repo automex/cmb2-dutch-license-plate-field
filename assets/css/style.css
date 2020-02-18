@@ -89,6 +89,7 @@
 }
 .kenteken > input[type=text]::placeholder { 
 	color: rgba(0,0,0,0.1);
+	text-shadow: none;
 }
 .kenteken span.blue img { 
 	width: 36px; 
