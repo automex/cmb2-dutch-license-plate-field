@@ -37,7 +37,7 @@
 	background: #003399;
 	width: calc(15% - 0px);
 	height: 92px;
-	font-size: 18px;
+	font-size: 24px;
 }
 .kenteken.small span.blue {
 	border-top-left-radius: 2px;
@@ -45,14 +45,8 @@
 	border-top: 1px solid #333;
 	border-left: 1px solid #333;
 	border-bottom: 1px solid #333;
-	font-size: 9px;
+	font-size: 11px;
 	height: 44px;
-}
-.kenteken span.blue span.countrycode { 
-	line-height: 32px; 
-}
-.kenteken.small span.blue span.countrycode { 
-	line-height: 12px; 
 }
 .kenteken > input[type="text"] {
 	font-family: "kenteken", PT Sans, arial, helvetica, sans-serif;
@@ -95,11 +89,13 @@
 	width: 36px; 
 	height: 36px;
 	margin: 12px auto 6px auto;
+	display: block;
 }
 .kenteken.small span.blue img {
 	width: 18px; 
 	height: 18px;
 	margin: 6px auto 3px auto;
+	display: block;
 }
 .kenteken > input[type="text"]:focus {
 	border: 2px solid #333;
