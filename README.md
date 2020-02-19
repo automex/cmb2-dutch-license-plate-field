@@ -45,5 +45,5 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## Credits
 
-* This plugin makes use of a license plate formatter created by @koenoe https://github.com/koenoe/kentekenplaat
+* The formatter used in this license plate field is created by @koenoe https://github.com/koenoe/kentekenplaat
 * The font used for the license plate field is "Kenteken" from LeFly Fonts http://lefly.vepar.nl/
