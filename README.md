@@ -21,9 +21,6 @@ $license_plate_number = $license_plate->add_field(array(
 ## Screenshot
 <img src="screenshot.PNG" alt="screenshot" width="70%" />
 
-# License
-The code and the documentation are released under the [GPLv3 License](LICENSE).
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -47,3 +44,6 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 * The formatter used in this license plate field is created by @koenoe https://github.com/koenoe/kentekenplaat
 * The font used for the license plate field is "Kenteken" from LeFly Fonts http://lefly.vepar.nl/
+
+# License
+The code and the documentation are released under the [GPLv3 License](LICENSE).
