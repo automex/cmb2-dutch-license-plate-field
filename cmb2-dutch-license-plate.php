@@ -29,7 +29,7 @@ class AMEX_Dutch_License_Plate {
 	}
 	
 	/* CMB2 Dutch License Plate Field Small */
-	public function render_callback_for_dutch_license_plate_small( $field, $escaped_value, $object_id, $object_type, $field_type_object ) { 
+	public function render_callback_for_dutch_license_plate_small( $field, $value, $object_id, $object_type, $field_type_object ) { 
 		$this->amex_css_js( $field ); ?> 
 		<span class="kenteken small">
 			<span class="blue">
@@ -38,8 +38,9 @@ class AMEX_Dutch_License_Plate {
 			</span>
 			<?php echo $field_type_object->input( array( 
 				'type' => 'text', 
-				'name' => 'dutch_license_plate_small',
-				'id' => 'dutch_license_plate_small',
+				'name'  => $field_type_object->_name(),
+				'id'    => $field_type_object->_id(),
+				'value' => $value,
 				'class' => 'nl',
 				'placeholder' => 'XP-004-T',
 				'spellcheck' => 'false',
@@ -52,7 +53,7 @@ class AMEX_Dutch_License_Plate {
 	} 
 
 	/* CMB2 Dutch License Plate Field Large */
-	public function render_callback_for_dutch_license_plate_large( $field, $escaped_value, $object_id, $object_type, $field_type_object ) {
+	public function render_callback_for_dutch_license_plate_large( $field, $value, $object_id, $object_type, $field_type_object ) {
 		$this->amex_css_js( $field ); ?> 
 		<span class="kenteken">
 			<span class="blue">
@@ -61,8 +62,9 @@ class AMEX_Dutch_License_Plate {
 			</span>
 			<?php echo $field_type_object->input( array( 
 				'type' => 'text', 
-				'name' => 'dutch_license_plate_large',
-				'id' => 'dutch_license_plate_large',
+				'name'  => $field_type_object->_name(),
+				'id'    => $field_type_object->_id(),
+				'value' => $value,
 				'class' => 'nl',
 				'placeholder' => 'XP-004-T',
 				'spellcheck' => 'false',
